@@ -1,0 +1,230 @@
+/qiime2-moving-pictures-tutorial
+32
+aligned-rep-seqs.qza
+alpha-rarefaction.qzv
+ancom-subject.qzv
+comp-gut-table.qza
+demux.qza
+emp-single-end-sequences
+emp-single-end-sequences.qza
+gg-13-8-99-515-806-nb-classifier.qza
+gut-table.qza
+masked-aligned-rep-seqs.qza
+qiime_tutorial.sh
+rep-seqs.qza
+rep-seqs.qzv
+rooted-tree.qza
+sample-metadata.tsv
+slurm-2567185.out
+slurm-2567191.out
+stats-dada2.qza
+stats-dada2.qzv
+submitter.sh
+table.qza
+unrooted-tree.qza
+Imported /qiime2-moving-pictures-tutorial/emp-single-end-sequences as EMPSingleEndDirFmt to /qiime2-moving-pictures-tutorial/emp-single-end-sequences.qza
+Saved SampleData[SequencesWithQuality] to: /qiime2-moving-pictures-tutorial/demux.qza
+Saved ErrorCorrectionDetails to: /qiime2-moving-pictures-tutorial/out_tmp/error_correction_details.qza
+Plugin error from demux:
+
+  couldn't connect to display "localhost:13.0"
+
+Debug info has been saved to /local/scratch/2567191/qiime2-q2cli-err-9q2jvof6.log
+Saved FeatureTable[Frequency] to: /qiime2-moving-pictures-tutorial/table-dada2.qza
+Saved FeatureData[Sequence] to: /qiime2-moving-pictures-tutorial/rep-seqs-dada2.qza
+Saved SampleData[DADA2Stats] to: /qiime2-moving-pictures-tutorial/stats-dada2.qza
+Saved Visualization to: /qiime2-moving-pictures-tutorial/stats-dada2.qzv
+Plugin error from feature-table:
+
+  couldn't connect to display "localhost:13.0"
+
+Debug info has been saved to /local/scratch/2567191/qiime2-q2cli-err-ay1a1vr7.log
+Saved Visualization to: /qiime2-moving-pictures-tutorial/rep-seqs.qzv
+Saved FeatureData[AlignedSequence] to: /qiime2-moving-pictures-tutorial/aligned-rep-seqs.qza
+Saved FeatureData[AlignedSequence] to: /qiime2-moving-pictures-tutorial/masked-aligned-rep-seqs.qza
+Saved Phylogeny[Unrooted] to: /qiime2-moving-pictures-tutorial/unrooted-tree.qza
+Saved Phylogeny[Rooted] to: /qiime2-moving-pictures-tutorial/rooted-tree.qza
+Saved FeatureTable[Frequency] to: /qiime2-moving-pictures-tutorial/core-metrics-results/rarefied_table.qza
+Saved SampleData[AlphaDiversity] to: /qiime2-moving-pictures-tutorial/core-metrics-results/faith_pd_vector.qza
+Saved SampleData[AlphaDiversity] to: /qiime2-moving-pictures-tutorial/core-metrics-results/observed_features_vector.qza
+Saved SampleData[AlphaDiversity] to: /qiime2-moving-pictures-tutorial/core-metrics-results/shannon_vector.qza
+Saved SampleData[AlphaDiversity] to: /qiime2-moving-pictures-tutorial/core-metrics-results/evenness_vector.qza
+Saved DistanceMatrix to: /qiime2-moving-pictures-tutorial/core-metrics-results/unweighted_unifrac_distance_matrix.qza
+Saved DistanceMatrix to: /qiime2-moving-pictures-tutorial/core-metrics-results/weighted_unifrac_distance_matrix.qza
+Saved DistanceMatrix to: /qiime2-moving-pictures-tutorial/core-metrics-results/jaccard_distance_matrix.qza
+Saved DistanceMatrix to: /qiime2-moving-pictures-tutorial/core-metrics-results/bray_curtis_distance_matrix.qza
+Saved PCoAResults to: /qiime2-moving-pictures-tutorial/core-metrics-results/unweighted_unifrac_pcoa_results.qza
+Saved PCoAResults to: /qiime2-moving-pictures-tutorial/core-metrics-results/weighted_unifrac_pcoa_results.qza
+Saved PCoAResults to: /qiime2-moving-pictures-tutorial/core-metrics-results/jaccard_pcoa_results.qza
+Saved PCoAResults to: /qiime2-moving-pictures-tutorial/core-metrics-results/bray_curtis_pcoa_results.qza
+Saved Visualization to: /qiime2-moving-pictures-tutorial/core-metrics-results/unweighted_unifrac_emperor.qzv
+Saved Visualization to: /qiime2-moving-pictures-tutorial/core-metrics-results/weighted_unifrac_emperor.qzv
+Saved Visualization to: /qiime2-moving-pictures-tutorial/core-metrics-results/jaccard_emperor.qzv
+Saved Visualization to: /qiime2-moving-pictures-tutorial/core-metrics-results/bray_curtis_emperor.qzv
+Saved Visualization to: //qiime2-moving-pictures-tutorial/core-metrics-results/faith-pd-group-significance.qzv
+Saved Visualization to: //qiime2-moving-pictures-tutorial/core-metrics-results/evenness-group-significance.qzv
+Plugin error from diversity:
+
+  couldn't connect to display "localhost:13.0"
+
+Debug info has been saved to /local/scratch/2567191/qiime2-q2cli-err-m6nzoamy.log
+Plugin error from diversity:
+
+  couldn't connect to display "localhost:13.0"
+
+Debug info has been saved to /local/scratch/2567191/qiime2-q2cli-err-rpl2v8ii.log
+Saved Visualization to: /qiime2-moving-pictures-tutorial/core-metrics-results/unweighted-unifrac-emperor-days-since-experiment-start.qzv
+Saved Visualization to: /qiime2-moving-pictures-tutorial/core-metrics-results/bray-curtis-emperor-days-since-experiment-start.qzv
+Saved Visualization to: /qiime2-moving-pictures-tutorial/alpha-rarefaction.qzv
+Plugin error from feature-classifier:
+
+  The scikit-learn version (0.24.1) used to generate this artifact does not match the current version of scikit-learn installed (0.23.1). Please retrain your classifier for your current deployment to prevent data-corruption errors.
+
+Debug info has been saved to /local/scratch/2567191/qiime2-q2cli-err-ojquttlv.log
+There was an issue with loading the file /qiime2-moving-pictures-tutorial/taxonomy.qza as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): /qiime2-moving-pictures-tutorial/taxonomy.qza
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2020.8/tutorials/metadata/
+
+Usage: qiime taxa barplot [OPTIONS]
+
+  This visualizer produces an interactive barplot visualization of
+  taxonomies. Interactive features include multi-level sorting, plot
+  recoloring, sample relabeling, and SVG figure export.
+
+Inputs:
+  --i-table ARTIFACT FeatureTable[Frequency]
+                         Feature table to visualize at various taxonomic
+                         levels.                                    [required]
+  --i-taxonomy ARTIFACT FeatureData[Taxonomy]
+                         Taxonomic annotations for features in the provided
+                         feature table. All features in the feature table must
+                         have a corresponding taxonomic annotation. Taxonomic
+                         annotations that are not present in the feature table
+                         will be ignored.                           [required]
+Parameters:
+  --m-metadata-file METADATA...
+    (multiple            The sample metadata.
+     arguments will be   
+     merged)                                                        [required]
+Outputs:
+  --o-visualization VISUALIZATION
+                                                                    [required]
+Miscellaneous:
+  --output-dir PATH      Output unspecified results to a directory
+  --verbose / --quiet    Display verbose output to stdout and/or stderr
+                         during execution of this action. Or silence output if
+                         execution is successful (silence is golden).
+  --examples             Show usage examples and exit.
+  --citations            Show citations and exit.
+  --help                 Show this message and exit.
+
+                    There was a problem with the command:                     
+ (1/1) Invalid value for '--i-taxonomy': '/qiime2-moving-pictures-
+  tutorial/taxonomy.qza' is not a valid filepath
+Saved FeatureTable[Frequency] to: /qiime2-moving-pictures-tutorial/gut-table.qza
+Saved FeatureTable[Composition] to: /qiime2-moving-pictures-tutorial/comp-gut-table.qza
+Saved Visualization to: /qiime2-moving-pictures-tutorial/ancom-subject.qzv
+Usage: qiime taxa collapse [OPTIONS]
+
+  Collapse groups of features that have the same taxonomic assignment
+  through the specified level. The frequencies of all features will be
+  summed when they are collapsed.
+
+Inputs:
+  --i-table ARTIFACT FeatureTable[Frequency]
+                         Feature table to be collapsed.             [required]
+  --i-taxonomy ARTIFACT FeatureData[Taxonomy]
+                         Taxonomic annotations for features in the provided
+                         feature table. All features in the feature table must
+                         have a corresponding taxonomic annotation. Taxonomic
+                         annotations that are not present in the feature table
+                         will be ignored.                           [required]
+Parameters:
+  --p-level INTEGER      The taxonomic level at which the features should be
+                         collapsed. All ouput features will have exactly this
+                         many levels of taxonomic annotation.       [required]
+Outputs:
+  --o-collapsed-table ARTIFACT FeatureTable[Frequency]
+                         The resulting feature table, where all features are
+                         now taxonomic annotations with the user-specified
+                         number of levels.                          [required]
+Miscellaneous:
+  --output-dir PATH      Output unspecified results to a directory
+  --verbose / --quiet    Display verbose output to stdout and/or stderr
+                         during execution of this action. Or silence output if
+                         execution is successful (silence is golden).
+  --examples             Show usage examples and exit.
+  --citations            Show citations and exit.
+  --help                 Show this message and exit.
+
+                    There was a problem with the command:                     
+ (1/1) Invalid value for '--i-taxonomy': '/qiime2-moving-pictures-
+  tutorial/taxonomy.qza' is not a valid filepath
+Usage: qiime composition add-pseudocount [OPTIONS]
+
+  Increment all counts in table by pseudocount.
+
+Inputs:
+  --i-table ARTIFACT FeatureTable[Frequency]
+                       The feature table to which pseudocounts should be
+                       added.                                       [required]
+Parameters:
+  --p-pseudocount INTEGER
+                       The value to add to all counts in the feature table.
+                                                                  [default: 1]
+Outputs:
+  --o-composition-table ARTIFACT FeatureTable[Composition]
+                       The resulting feature table.                 [required]
+Miscellaneous:
+  --output-dir PATH    Output unspecified results to a directory
+  --verbose / --quiet  Display verbose output to stdout and/or stderr during
+                       execution of this action. Or silence output if
+                       execution is successful (silence is golden).
+  --examples           Show usage examples and exit.
+  --citations          Show citations and exit.
+  --help               Show this message and exit.
+
+                    There was a problem with the command:                     
+ (1/1) Invalid value for '--i-table': '/qiime2-moving-pictures-tutorial/gut-
+  table-l6.qza' is not a valid filepath
+Usage: qiime composition ancom [OPTIONS]
+
+  Apply Analysis of Composition of Microbiomes (ANCOM) to identify features
+  that are differentially abundant across groups.
+
+Inputs:
+  --i-table ARTIFACT FeatureTable[Composition]
+                       The feature table to be used for ANCOM computation.
+                                                                    [required]
+Parameters:
+  --m-metadata-file METADATA
+  --m-metadata-column COLUMN  MetadataColumn[Categorical]
+                       The categorical sample metadata column to test for
+                       differential abundance across.               [required]
+  --p-transform-function TEXT Choices('sqrt', 'log', 'clr')
+                       The method applied to transform feature values before
+                       generating volcano plots.              [default: 'clr']
+  --p-difference-function TEXT Choices('mean_difference', 'f_statistic')
+                       The method applied to visualize fold difference in
+                       feature abundances across groups for volcano plots.
+                                                                    [optional]
+Outputs:
+  --o-visualization VISUALIZATION
+                                                                    [required]
+Miscellaneous:
+  --output-dir PATH    Output unspecified results to a directory
+  --verbose / --quiet  Display verbose output to stdout and/or stderr during
+                       execution of this action. Or silence output if
+                       execution is successful (silence is golden).
+  --examples           Show usage examples and exit.
+  --citations          Show citations and exit.
+  --help               Show this message and exit.
+
+                    There was a problem with the command:                     
+ (1/1) Invalid value for '--i-table': '/qiime2-moving-pictures-tutorial/comp-
+  gut-table-l6.qza' is not a valid filepath
+slurmstepd: error: Detected 1 oom-kill event(s) in step 2567191.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
